@@ -14,8 +14,8 @@ public class ArrayListVsHashSet {
 			mySet.add(-i);
 		}
 		
-		Iterator listIt = myList.iterator();
-		Iterator setIt = myList.iterator();
+		Iterator<Integer> listIt = myList.iterator();
+		Iterator<Integer> setIt = myList.iterator();
 		while (listIt.hasNext())
 			System.out.print(listIt.next()+ " ");
 		System.out.println();

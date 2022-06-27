@@ -1,10 +1,10 @@
 package com.revature.map;
 
 import java.util.HashMap;
-import java.util.Hashtable;
+//import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
-import java.util.TreeMap;
+//import java.util.TreeMap;
 
 public class MapDemo {
 	public static void main(String[] args) {

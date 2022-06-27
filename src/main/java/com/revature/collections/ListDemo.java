@@ -1,10 +1,10 @@
 package com.revature.collections;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
+//import java.util.HashSet;
+//import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
+//import java.util.Set;
 
 public class ListDemo {
 	public static void main(String[] args) {
