@@ -1,6 +1,6 @@
 package com.revature.customer;
 
-public class Customer {
+public class Customer implements Comparable<Customer> {
 	final String referedBy ;
 	final String name;
 	private static int totalCustomers = 0;
@@ -32,5 +32,9 @@ public class Customer {
 		else
 			returnme = name + " spent $"+ spent+ " and was refered by "+referedBy;
 		return returnme;
+	}
+	@Override
+	public int compareTo(Customer o) {
+		return this.name.compareTo(o.name);
 	}
 }
